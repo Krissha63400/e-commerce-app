@@ -10,6 +10,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { SignInOutComponent } from './sign-in-out/sign-in-out.component';
 import { CartComponent } from './cart/cart.component';
+import { CarouselComponent } from './home/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CartComponent } from './cart/cart.component';
     AboutUsComponent,
     ContactUsComponent,
     SignInOutComponent,
-    CartComponent
+    CartComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
