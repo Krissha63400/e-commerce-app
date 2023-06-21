@@ -1,0 +1,13 @@
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin-top: 110px;
+  width: 30%; /* Adjust the percentage value as needed */
+  height: auto; /* Maintain the image's aspect ratio */
+}
