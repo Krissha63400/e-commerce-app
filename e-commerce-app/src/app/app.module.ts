@@ -11,6 +11,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { SignInOutComponent } from './sign-in-out/sign-in-out.component';
 import { CartComponent } from './cart/cart.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
+import { ContentComponent } from './home/content/content.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CarouselComponent } from './home/carousel/carousel.component';
     ContactUsComponent,
     SignInOutComponent,
     CartComponent,
-    CarouselComponent
+    CarouselComponent,
+    ContentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
