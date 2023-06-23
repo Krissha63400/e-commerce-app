@@ -19,7 +19,7 @@ img{
 button{
   padding: 20px 50px;
   box-sizing: border-box;
-  background: rgb(97, 124, 231);
+  background: rgb(144, 180, 234);
   border-radius: 6px;
   color: white;
   font-weight: bold;
@@ -32,7 +32,7 @@ button:hover{
 }
 
 h1{
-  color: rgb(97, 124, 231);
+  color: rgb(144, 180, 234);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@ h1::after {
 .image-container:hover {
   /* Add the styles for the hover effect */
   /* For example, change the border or add a box shadow */
-  box-shadow: 0 0 5px rgba(74, 176, 228, 0.7);
+  box-shadow: 0 0 5px rgb(144, 180, 234);
   filter: grayscale(20%);
 }
 .image-container:hover img,
@@ -106,7 +106,7 @@ h1::after {
 .new-button {
   padding: 10px 50px;
   box-sizing: border-box;
-  background: rgb(97, 124, 231);
+  background: rgb(144, 180, 234);
   border-radius: 6px;
   color: white;
   font-weight: bold;
@@ -128,7 +128,7 @@ h1::after {
 .image-container.New3:hover {
   /* Add the styles for the hover effect */
   /* For example, change the border or add a box shadow */
-  box-shadow: 0 0 5px rgba(74, 176, 228, 0.7);
+  box-shadow: 0 0 5px rgb(144, 180, 234);
   filter: grayscale(20%);
 }
 .image-container.New1:hover img,
