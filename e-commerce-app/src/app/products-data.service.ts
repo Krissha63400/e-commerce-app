@@ -10,7 +10,7 @@ export class ProductsDataService {
       category: 'Women',
       price: '799.00',
       description: 'A stylish floral print blouse with a relaxed fit and three-quarter sleeves.',
-      imageUrl: 'assets/img/Product1.wepb',
+      imageUrl: 'assets/img/Product1.webp',
     },
     {
       productName: 'Denim Shorts',
