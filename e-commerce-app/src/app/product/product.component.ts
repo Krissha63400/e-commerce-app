@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from 'src/app/services/product.service';
+=======
+import { Component } from '@angular/core';
+import { ProductsDataService } from '../products-data.service';
+
+>>>>>>> 8fee26b96366366d5768d50805c84d32e7319d9b
 
 @Component({
   selector: 'app-home',
@@ -8,6 +14,7 @@ import { ProductService } from 'src/app/services/product.service';
 })
 export class HomeComponent implements OnInit{
 
+<<<<<<< HEAD
   productList: any [] = [];
   cartObj : any = {
     "CartId": 0,
@@ -41,4 +48,7 @@ export class HomeComponent implements OnInit{
        }
     })
   }
+=======
+  constructor(public productsDataService: ProductsDataService) {}
+>>>>>>> 8fee26b96366366d5768d50805c84d32e7319d9b
 }

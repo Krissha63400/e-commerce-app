@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <section id="product">
   <div class="container">
       <div class="row">
@@ -46,3 +47,20 @@
   </div>
 
 </section>
+=======
+<div class="container">
+  <br>
+  <div class="row">
+    <div class="card col-md-3 mb-4 card-with-border" *ngFor="let product of productsDataService.products">
+      <img [src]="product.imageUrl" alt="bike" class="card-img-top">
+      <div class="card-body">
+        <h4 class="card-title">{{ product.productName }}</h4>
+        <p class="card-text"><strong>Category: </strong>{{ product.category }}</p>
+        <p class="card-text">{{ product.description }}</p>
+        <p class="card-text"><strong>Price:</strong>Php {{ product.price }}</p>
+        <button class="btn btn-dark">Add to cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+>>>>>>> 8fee26b96366366d5768d50805c84d32e7319d9b

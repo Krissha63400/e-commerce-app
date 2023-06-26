@@ -12,8 +12,3 @@ img {
   height: auto; /* Maintain the image's aspect ratio */
 }
 
-
-.carousel-item img {
-  height: 300px; /* Set the desired height for the carousel images */
-  object-fit: cover; /* Maintain the aspect ratio and fill the entire height */
-}

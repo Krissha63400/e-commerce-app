@@ -1,0 +1,144 @@
+img{
+  height: 200px; /* Set the desired height for the carousel images */
+  object-fit: cover; /* Maintain the aspect ratio and fill the entire height */
+  width: 100%; /* Set the width to occupy the full width of the site */
+  overflow: hidden; /* Hide any content that overflows outside the carousel item */
+}
+
+.image-container {
+  position: relative;
+  height: 300px;
+}
+
+.image-text {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+button{
+  padding: 20px 50px;
+  box-sizing: border-box;
+  background: rgb(144, 180, 234);
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+button:hover{
+  background: rgba(236, 83, 190, 0.7);
+  color: rgb(170, 221, 241);
+}
+
+h1{
+  color: rgb(144, 180, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bodoni MT", serif;
+  font-style: italic;
+  font-size: 50px;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  bottom: -320px; /* Adjust the position of the line based on your design preferences */
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(to right, rgba(97, 124, 231, 0), rgba(97, 124, 231, 1), rgba(97, 124, 231, 0)); /* Customize the gradient colors to match your design */
+}
+
+.image-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container:hover,
+.image-container:hover,
+.image-container:hover {
+  /* Add the styles for the hover effect */
+  /* For example, change the border or add a box shadow */
+  box-shadow: 0 0 5px rgb(144, 180, 234);
+  filter: grayscale(20%);
+}
+.image-container:hover img,
+.image-container:hover img,
+.image-container:hover img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container img,
+.image-container img,
+.image-container img {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.image-container.New1{
+  margin-right: 25px;
+  margin-top: 20px;
+  height: 400px;
+}
+
+.image-container.New2{
+  margin-top: 20px;
+  height: 400px;
+  margin-right: 25px;
+}
+
+.image-container.New3{
+  margin-top: 20px;
+  height: 400px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain the aspect ratio and fill the container */
+}
+
+.new-button {
+  padding: 10px 50px;
+  box-sizing: border-box;
+  background: rgb(144, 180, 234);
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+}
+
+.new-button:hover {
+  background: rgba(236, 83, 190, 0.7);
+  color: rgb(170, 221, 241);
+}
+
+.image-text.New{
+  position: absolute;
+  top: 85%;
+  left: 20%;
+}
+
+.image-container.New1:hover,
+.image-container.New2:hover,
+.image-container.New3:hover {
+  /* Add the styles for the hover effect */
+  /* For example, change the border or add a box shadow */
+  box-shadow: 0 0 5px rgb(144, 180, 234);
+  filter: grayscale(20%);
+}
+.image-container.New1:hover img,
+.image-container.New2:hover img,
+.image-container.New3:hover img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container.New1 img,
+.image-container.New2 img,
+.image-container.New3 img {
+  transition: box-shadow 0.3s ease-in-out;
+}
